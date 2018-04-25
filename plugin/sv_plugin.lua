@@ -36,7 +36,7 @@ function PLUGIN:Initialize()
 			};
 			
 			if (bIsPermanent) then
-				cwKernel:DestroyTimer(
+				Clockwork.kernel:DestroyTimer(
 					"ForcedAnim"..self:UniqueID()
 				);
 			else
